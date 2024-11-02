@@ -8,9 +8,9 @@ use Illuminate\Database\Seeder;
 class PostSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Run the database seeders.
      */
-    public function run()
+    public function run(): void
     {
         Post::factory()
             ->count(200)

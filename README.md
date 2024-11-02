@@ -1,4 +1,4 @@
-# Laravel 10 查詢時使用資料型態轉換
+# Laravel 11 查詢時使用資料型態轉換
 
 有時您可能需要在執行查詢時使用資料型態轉換，例如從資料表選擇原始值時。
 
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/sqwUd55.png)
+![](https://i.imgur.com/L7DK7Wm.png)
 > 將使用者最新建立時間轉換成日期與時間

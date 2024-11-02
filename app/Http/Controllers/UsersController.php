@@ -16,6 +16,6 @@ class UsersController extends Controller
         ])->withCasts([
             'last_posted_at' => 'datetime'
         ])->first();
-        echo '使用者編號 ' . $user->id . ' 最後文章建立時間：' . $user->last_posted_at;
+        echo __('The last posted time of user ID :user_id is :user_last_posted_at', ['user_id' => $user->id, 'user_last_posted_at' => $user->last_posted_at]) . PHP_EOL;
     }
 }
